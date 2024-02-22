@@ -226,8 +226,6 @@ footer {
   position: relative;
   bottom: 0;
   background-color: black;
-  /* height: 67vh;
-  width: 100%; */
 }
 .social-media {
   display: flex;
@@ -276,6 +274,9 @@ footer {
   opacity: 0.7;
 }
 .lower {
+  height: 53px;
+  position: relative;
+  bottom: 0;
   display: flex;
   justify-content: space-between;
 }
