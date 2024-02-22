@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.firstmain {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url(/shoe/s6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.firstmain .box {
+  height: 110vh;
+  width: 100vw;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.heading {
+  align-items: flex-start;
+  margin-left: 20px;
+  width: 10rem;
+}
+.navbar ul {
+  display: flex;
+  width: 100vw;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-left: 150px;
+}
+.navbar ul li {
+  margin-left: 1.5rem;
+}
+.navbar ul li a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+.navbar ul i {
+  margin-left: 1.75rem;
+  font-size: 1.3rem;
+}
+.navbar button {
+  margin-left: 2rem;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  border: none;
+  color: white;
+  background-color: #214645;
+}
+.icon {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  display: none;
+  margin-top: 1px;
+  margin-right: 3px;
+  font-size: 2rem;
+}
+.nav2 {
+  background-color: white;
+  backdrop-filter: blur(90px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: all 2s linear;
+}
+.nav2 ul {
+  list-style-type: none;
+}
+.nav2 .sidebar li a {
+  text-decoration: none;
+  color: black;
+}
+.nav2 .sidebar .icon1 i {
+  font-size: 0.75rem;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.nav2 ul .icon2 {
+  width: 15.5rem;
+}
+.icon2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav2 .sidebar .icon2 i {
+  margin: 15px 30px 49px 10px;
+  font-size: 1.3rem;
+}
+.nav2 .sidebar li {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 2px;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+  top: 10%;
+  left: 6%;
+}
+.content h1 {
+  font-size: 4rem;
+}
+.content .line {
+  margin: 20px 0px;
+  height: 0px;
+  width: 13rem;
+  border: 1px solid black;
+}
+.content p {
+  font-size: 1.5rem;
+  margin: 1rem 0px 4rem 0px;
+}
+.btn {
+  backdrop-filter: contrast(100%);
+}
+.content button {
+  height: 2.5rem;
+  width: 9rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 4rem;
+  background-color: #214645;
+  color: white;
+  border: none;
+  animation: color 25s infinite alternate;
+}
+.nextpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 170vh;
+  background-color: rgba(228, 222, 222, 0.21);
+}
+.nextpage h1 {
+  margin-top: 50px;
+}
+.outer-card {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100vw;
+  height: 170vh;
+}
+.card {
+  margin-left: 2px;
+  background-color: white;
+  height: 400px;
+  width: 300px;
+  border: none;
+  box-shadow: 2px 5px 19px 2px rgba(128, 115, 115, 0.397);
+}
+.card:hover {
+  box-shadow: 0px 15px 30px 2px rgba(119, 109, 109, 0.589);
+}
+.span h3 {
+  margin-top: 25px;
+}
+.span {
+  margin-top: 10px;
+  text-align: center;
+}
+.checked {
+  color: orange;
+}
+.span div {
+  margin-top: 22px;
+}
+.span button {
+  height: 40px;
+  width: 130px;
+  border: 2px solid rgb(16, 147, 223);
+  background-color: white;
+  border-radius: 2rem;
+  margin-top: 22px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+footer {
+  background-color: black;
+  height: 67%;
+  width: 100%;
+}
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  width: 100vw;
+  margin-right: 2rem;
+}
+.icons {
+  margin-top: 16px;
+  margin-right: 3rem;
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+.icons i {
+  height: 35px;
+  color: white;
+}
+.footer {
+  height: 16rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sec-1 h3 {
+  line-height: 40px;
+  font-size: 1.5rem;
+  color: white;
+}
+.sec h3 {
+  font-size: 1.26rem;
+  line-height: 3.5rem;
+  color: white;
+}
+.sec-2 h3 {
+  margin-top: 2.1rem;
+}
+.sec li {
+  list-style-type: none;
+}
+.sec li a {
+  text-decoration: none;
+  line-height: 2rem;
+  color: grey;
+  opacity: 0.7;
+}
+.lower {
+  display: flex;
+  justify-content: space-between;
+}
+.lower-left {
+  width: 40vw;
+  height: 53px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location {
+  width: 20vw;
+  height: 53px;
+  display: flex;
+  align-items: center;
+}
+.lower-left .location i {
+  font-size: 1.3rem;
+  color: white;
+  margin-left: 10px;
+  opacity: 0.7;
+}
+.lower-left .location span {
+  opacity: 0.5;
+  font-size: 20px;
+  margin-left: 8px;
+}
+.lower-left span {
+  color: white;
+}
+.lower-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 53px;
+  width: 60vw;
+}
+.lower-right ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40vw;
+}
+.lower-right ul li {
+  list-style-type: none;
+  padding-right: 2rem;
+}
+.lower-right ul li a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+}
+.lower-left .span-sec {
+  opacity: 0.5;
+}
