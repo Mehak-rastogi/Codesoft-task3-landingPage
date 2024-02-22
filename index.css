@@ -179,7 +179,7 @@ body {
 }
 .outer-card {
   margin-top: 1rem;
-  display: flex;sss
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
